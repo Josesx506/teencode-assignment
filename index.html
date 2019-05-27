@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../CSS/index.css" />
   </head>
   <body>
     <div id="register" class="animate form">
-      <form autocomplete="on">
+      <form autocomplete="on" id="form1">
         <h1>Teencode Login</h1>
         <p>
-          <label for="usernamesignup" class="uname" 
-            >Your username</label
-          >
+          <label for="usernamesignup" class="uname">Your username</label>
           <input
             id="usernamesignup"
             name="usernamesignup"
@@ -24,21 +22,19 @@
           />
         </p>
         <p>
-          <label for="passwordsignup" class="youpasswd"
-            >Your password
-          </label>
+          <label for="passwordsignup" class="youpasswd">Your password</label>
           <input
             id="passwordsignup"
             name="passwordsignup"
             required="required"
             type="password"
-            placeholder="eg. X8df!90EO"
-          />
+            placeholder="eg. X8df!90EO"/>
         </p>
         <p class="signin">
           <input type="submit" value="Login" />
         </p>
       </form>
     </div>
+    <script type="text/javascript" src="../JS/index.js"></script>
   </body>
 </html>
